@@ -1,0 +1,64 @@
+﻿@media (min-width:1440px){ /*当屏幕尺寸大于1440px时，应用下面的CSS样式*/
+.comtitle .line {width: 40%;}
+	.comtitle b{width: 20%;}
+.header {width: 80%;}
+.bigtitle,.scopenr,.detnr,.equnr,.partnersnr,.centnr,
+.business{width: 80%;}	
+}
+@media (max-width:1100px){/*当屏幕尺寸小于1100px时，应用下面的CSS样式*/
+	.titwz {width: 60%;}
+	.rarticle .detlist{width:48%;}	
+	.teltop{display: none;}
+}
+@media (max-width:768px){ /*当屏幕尺寸小于768px时，应用下面的CSS样式*/
+.pgwMenu .pm-dropDown{position: absolute;right: 0;}
+.pgwMenu li {width: 100%; padding: 5px 0;}
+.pgwMenu.light .pm-links.mobile{right: 0;left: inherit;top: 58px;}
+.dhcont, .bigtitle, .scopenr, .detnr, .equnr, .partnersnr, .centnr {width: 92%;}
+.dhcont a {display: none;}
+.bigtitle {font-size: 1.6em;}
+.bigtitle .line {width: 25%;height: 35px;}
+.wztitle{width: 50%;}
+.bx-controls-direction{display: none;}
+.scopelist {width: 100%;}
+.scopelist img {border-right:solid 1px #fff;}
+.scopewz{border-right: solid 1px rgba(255,255,255,.3); margin-bottom: 10px;}
+.detlist {width: 100%;}	
+.listw {width: 100%;}		
+.equnr .detlist {width: 100%;border: solid 1px #7e7f81;border-bottom: none;}
+.equnr .riglin img {border-bottom: solid 1px #7e7f81;}	
+.leftcen {width: 100%;}
+.rightcen {width: 100%;}
+.kfwz {width: 100%;margin-top: 15px;}
+.erwm {float: left;width: 100%;max-width:200px;padding-top: 20px;}
+.bottomnav a{float:left;width: 100%;line-height: 24px;font-size: 1.1em;}
+.bottomnav i{display: none;}
+.comtitle .line {display: none;}
+	.comtitle b{width: 100%; padding-top: 10px;}
+.titcs{font-size: 1.1em; width: 60%; margin-left: -30%;}
+.music img{width: 100%; height: inherit;}
+.addleft {width: 100%;}
+.addleft p {background:inherit;font-size: 1em;line-height: 20px;padding-left: 18px; padding-right: 10px;}
+.tel {width: 88%;padding: 12px 10px 12px 2px; background: inherit;font-size: 1em;}
+.erm {position:initial;float: left;width: 100%; max-width:280px; font-size: 1em;}
+.address img {width: 100%;}
+/*二级标题 */
+.titwz {width:80%;}
+.leftimg {width: 100%;}
+.rightwz {margin-left: 0;}
+/*业务范围*/
+.aside ul{display: flex;flex-wrap: wrap;justify-content: space-between;}
+	.aside li {width: 31.5%; margin:6px 0;}
+.rarticle,.rtitle span{width: 100%;display: block;margin: 0;}
+	.rtitle {display: block;padding-top: 10px;}
+	.rarticle .detlist{width:100%;}
+.imgzs img {width: 48%;}
+.listimg img {width: 100%;}
+.prog span img {width: 100%;}
+.bigimg img{width: 100%;}
+
+}
+@media (max-width:480px){ /*当屏幕尺寸小于480px时，应用下面的CSS样式*/
+	.bigbanner{height: 200px;}
+	.titwz{display: none;}
+}
